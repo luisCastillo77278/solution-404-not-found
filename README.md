@@ -35,7 +35,9 @@
 
 ## Overview
 
-![screenshot](https://github.com/luisCastillo77278/solution-404-not-found/public/images/result-404.png)
+<div align="center">
+    <img src="./public/images/result-404.png" width="500"  alt="solucion">
+<div>
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
