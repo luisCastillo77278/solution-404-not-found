@@ -86,15 +86,12 @@ header {
     color: #BDBDBD;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 900px) {
     header {
         margin: 40px 77px 0px 77px;
     }
     .article-main-img {
-        margin-top: 150px;
-        margin-bottom: 150px;
-        margin-left: 57px;
-        margin-right: 0px;
+        margin: 150px 0px 150px 57px;
         width: 50%;
     }
     .article-main-img img {
@@ -104,11 +101,12 @@ header {
     .section-main {
         display: flex;
         flex-wrap: nowrap;
+        width: 100%;
     }
     .article-main-text {
         width: 50%;
-        margin-top: 150px;
-        margin-left: 50px;
+        max-width: 765px;
+        margin: 150px 50px 0px;
     }
     .article-title {
         width: 100%;
@@ -121,10 +119,7 @@ header {
 
 @media(min-width: 1024px) {
     .article-main-img {
-        margin-top: 200px;
-        margin-bottom: 200px;
-        margin-left: 77px;
-        margin-right: 0px;
+        margin: 200px 0px 200px 77px;
     }
     .article-main-img img {
         width: 539.22px;
@@ -133,21 +128,17 @@ header {
     .article-main-text {
         margin-top: 200px;
         margin-left: 118px;
+        width: 100%;
     }
     .article-title {
-        width: 556px;
-        height: 190px;
-        font-family: Space Mono;
+        width: 100%;
         font-size: 64px;
         line-height: 95px;
-        margin-right: 50px;
     }
     .article-text {
         font-size: 24px;
         line-height: 36px;
-        width: 381px;
-        height: 108px;
-        margin-top: 36px;
-        margin-bottom: 64px;
+        width: 75%;
+        margin: 36px 0px 64px;
     }
 }
