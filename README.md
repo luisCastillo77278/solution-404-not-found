@@ -35,14 +35,15 @@
 
 ## Overview
 
-![screenshot](https://github.com/luisCastillo77278/solution-404-not-found)
+<div align="center">
+  <img src="./public/images/result-404.png" alt="solution" width="500">
+</div>
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Mi demo lo puedes encontrar en [Heroku solution-404-not-found](https://solution-404-not-found.herokuapp.com/)
+- La experiencia que obtuve al realizar este desafío fue la implementación de los break points e ir diseñando con el modelo movile first.
+- He mejorado en la cuestión de irme adaptando a crear diseños con CSS nativo.
+- Es mejor empezar a diseñar desde el modelo movile firs, desde dispositivos móviles hasta dispositivos desktop. Ya que se tiene un mejor control con los media querys.
 
 
 
