@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px 24px;
+}
+
+.nav-title {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.article-main-img {
+    margin: 64px 44px;
+}
+
+.article-main-text {
+    margin-left: 24px;
+}
+
+.article-title {
+    width: 350px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.article-text {
+    margin-top: 30px;
+    margin-bottom: 66px;
+    width: 328px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.div-btn {
+    margin-bottom: 114px;
+}
+
+.btn {
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+    width: 216px;
+    height: 68px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+
+.footer-article {
+    margin-bottom: 24px;
+    margin-left: 46px;
+    margin-right: 42px;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media(min-width: 768px) {
+    header {
+        margin: 40px 77px 0px 77px;
+    }
+    .article-main-img {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: 57px;
+        margin-right: 0px;
+        width: 50%;
+    }
+    .article-main-img img {
+        width: 360px;
+        height: 400px;
+    }
+    .section-main {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .article-main-text {
+        width: 50%;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    .article-title {
+        width: 100%;
+    }
+    .article-text {
+        width: 80%;
+        color: #4F4F4F;
+    }
+}
+
+@media(min-width: 1024px) {
+    .article-main-img {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: 77px;
+        margin-right: 0px;
+    }
+    .article-main-img img {
+        width: 539.22px;
+        height: 447.43px;
+    }
+    .article-main-text {
+        margin-top: 200px;
+        margin-left: 118px;
+    }
+    .article-title {
+        width: 556px;
+        height: 190px;
+        font-family: Space Mono;
+        font-size: 64px;
+        line-height: 95px;
+    }
+    .article-text {
+        font-size: 24px;
+        line-height: 36px;
+        width: 381px;
+        height: 108px;
+        margin-top: 36px;
+        margin-bottom: 64px;
+    }
+}

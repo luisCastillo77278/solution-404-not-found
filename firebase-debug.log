@@ -1,0 +1,31 @@
+[debug] [2021-07-01T08:03:20.246Z] ----------------------------------------------------------------------
+[debug] [2021-07-01T08:03:20.248Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-07-01T08:03:20.249Z] CLI Version:   9.3.0
+[debug] [2021-07-01T08:03:20.249Z] Platform:      darwin
+[debug] [2021-07-01T08:03:20.249Z] Node Version:  v12.19.0
+[debug] [2021-07-01T08:03:20.284Z] Time:          Thu Jul 01 2021 03:03:20 GMT-0500 (GMT-05:00)
+[debug] [2021-07-01T08:03:20.285Z] ----------------------------------------------------------------------
+[debug] [2021-07-01T08:03:20.285Z] 
+[debug] [2021-07-01T08:03:20.405Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-01T08:03:20.513Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-01T08:03:20.513Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mac/Desktop/BootstrapUdemy/css-prueba-challenge-1
+
+[debug] [2021-07-01T08:03:21.689Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-07-01T08:03:21.689Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
