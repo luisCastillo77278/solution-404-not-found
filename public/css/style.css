@@ -140,6 +140,7 @@ header {
         font-family: Space Mono;
         font-size: 64px;
         line-height: 95px;
+        margin-right: 50px;
     }
     .article-text {
         font-size: 24px;
